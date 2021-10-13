@@ -1,4 +1,4 @@
-import { Link, Switch, Route, Redirect } from "react-router-dom";
+import { Switch, Route, Redirect } from "react-router-dom";
 import "./App.css";
 // import UsersPage from "./components/Users/users.component";
 import HomePage from "./components/home/home.component";
@@ -25,27 +25,6 @@ function App() {
 
         <Route component={PageNotFound} />
       </Switch>
-
-      {/* <div className="nav-bar">
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/users">Users</Link>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <Switch>
-        <Route exact path="/users" component={UsersPage} />
-        <Route exact path="/about" component={AboutPage} />
-        <Route exact path="/" component={HomePage} />
-      </Switch> */}
     </div>
   );
 }
