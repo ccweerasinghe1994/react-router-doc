@@ -1,0 +1,15 @@
+.topics {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 30vw 70vw;
+}
+
+.side-nav {
+  margin-top: 10vh;
+  margin-left: 2vw;
+}
+
+.main {
+  margin-top: 10vh;
+  padding: 5vh;
+}
