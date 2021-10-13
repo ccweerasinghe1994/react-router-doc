@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import { ReactComponent as Icon } from "./Group 2.svg";
 import "./header.styles.css";
